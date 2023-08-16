@@ -61,7 +61,7 @@ let baseURL = `http://localhost:8088`;
                 .then((data)=>{
                   console.log(data);
                   alert("Check");
-                  window.location.href = "login.html"; // Replace "login.html" with the actual logout page URL
+                  window.location.href = "../index.html"; // Replace "login.html" with the actual logout page URL
                 });
             });
           }

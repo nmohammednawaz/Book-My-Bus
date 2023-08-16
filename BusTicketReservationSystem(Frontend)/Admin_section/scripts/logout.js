@@ -35,13 +35,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 // openCustomAlert("User LogOut SucessFull!!");
                 localStorage.setItem("username", JSON.stringify(""));
                 localStorage.setItem("uuid", JSON.stringify(""));
-              
+                window.location.href = "../index.html"; // Replace "login.html" with the actual logout page URL
                 console.log(data);
               })
               .catch(error => {
                 console.error('Error posting data:', error);
               });
-            window.location.href = "../index.html"; // Replace "login.html" with the actual logout page URL
+            
           });
         }
       });

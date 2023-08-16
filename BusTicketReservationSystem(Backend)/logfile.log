@@ -432,3 +432,69 @@
 2023-08-16T09:57:20.883+05:30  INFO 14328 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-08-16T09:57:20.886+05:30  INFO 14328 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 2023-08-16T09:58:15.568+05:30  WARN 14328 --- [http-nio-8088-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: User already Logged in with this username.]
+2023-08-16T10:05:09.935+05:30  WARN 14328 --- [http-nio-8088-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: Please Enter a valid password]
+2023-08-16T10:08:42.592+05:30  WARN 14328 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: Please Enter a valid username.]
+2023-08-16T10:08:52.184+05:30 ERROR 14328 --- [http-nio-8088-exec-8] c.m.exception.GlobalExceptionHandler     : RouteException Occour!
+2023-08-16T10:08:52.186+05:30  WARN 14328 --- [http-nio-8088-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.BusException: bus list is empty]
+2023-08-16T10:08:52.186+05:30  WARN 14328 --- [http-nio-8088-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.RouteException: Route list is empty]
+2023-08-16T10:09:04.018+05:30  WARN 14328 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.BusException: bus list is empty]
+2023-08-16T10:09:51.387+05:30  WARN 14328 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.BusException: Cannot find route for adding Bus]
+2023-08-16T10:09:55.313+05:30  WARN 14328 --- [http-nio-8088-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.BusException: bus list is empty]
+2023-08-16T10:25:35.130+05:30  WARN 14328 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "com.masai.model.Reservation.getSource()" is null]
+2023-08-16T10:28:51.911+05:30  WARN 14328 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.ReservationException: Reservation is not present with this Reservation ID :1]
+2023-08-16T10:30:37.601+05:30  WARN 14328 --- [http-nio-8088-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.LoginException: Admin not logged in with this Username.]
+2023-08-16T10:30:53.174+05:30  INFO 14328 --- [RMI TCP Connection(44)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-08-16T10:30:53.193+05:30  INFO 14328 --- [RMI TCP Connection(44)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-16T10:30:53.195+05:30  INFO 14328 --- [RMI TCP Connection(44)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-16T10:30:53.205+05:30  INFO 14328 --- [RMI TCP Connection(44)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-16T10:30:53.208+05:30  INFO 14328 --- [RMI TCP Connection(44)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-16T10:30:53.214+05:30  INFO 14328 --- [RMI TCP Connection(44)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-16T10:30:57.558+05:30  INFO 7288 --- [restartedMain] .m.BusTicketReservationSystemApplication : Starting BusTicketReservationSystemApplication using Java 17.0.6 with PID 7288 (D:\Full Stack Web Development\Unit 6\Project\Book-My-Bus\BusTicketReservationSystem(Backend)\target\classes started by nmoha in D:\Full Stack Web Development\Unit 6\Project\Book-My-Bus\BusTicketReservationSystem(Backend))
+2023-08-16T10:30:57.562+05:30  INFO 7288 --- [restartedMain] .m.BusTicketReservationSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-08-16T10:30:57.637+05:30  INFO 7288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-16T10:30:57.638+05:30  INFO 7288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-16T10:30:58.898+05:30  INFO 7288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-16T10:30:59.014+05:30  INFO 7288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 6 JPA repository interfaces.
+2023-08-16T10:30:59.831+05:30  INFO 7288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-08-16T10:30:59.845+05:30  INFO 7288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-16T10:30:59.846+05:30  INFO 7288 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-08-16T10:30:59.951+05:30  INFO 7288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-16T10:30:59.951+05:30  INFO 7288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2312 ms
+2023-08-16T10:31:00.157+05:30  INFO 7288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-16T10:31:00.273+05:30  INFO 7288 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-08-16T10:31:00.277+05:30  INFO 7288 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-16T10:31:00.504+05:30  INFO 7288 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-16T10:31:00.744+05:30  INFO 7288 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-16T10:31:00.772+05:30  INFO 7288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-16T10:31:01.222+05:30  INFO 7288 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6df83f14
+2023-08-16T10:31:01.225+05:30  INFO 7288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-16T10:31:01.733+05:30  INFO 7288 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-16T10:31:02.914+05:30  INFO 7288 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-16T10:31:03.121+05:30  INFO 7288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-16T10:31:03.821+05:30  WARN 7288 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-16T10:31:04.696+05:30  INFO 7288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-16T10:31:04.748+05:30  INFO 7288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-08-16T10:31:04.762+05:30  INFO 7288 --- [restartedMain] .m.BusTicketReservationSystemApplication : Started BusTicketReservationSystemApplication in 7.792 seconds (process running for 9.025)
+2023-08-16T10:31:34.632+05:30  INFO 7288 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-16T10:31:34.632+05:30  INFO 7288 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-16T10:31:34.633+05:30  INFO 7288 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-16T10:33:42.064+05:30  WARN 7288 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.UserException: Please provide a valid key to view buses]
+2023-08-16T10:33:49.310+05:30  WARN 7288 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.LoginException: Admin not logged in with this Username.]
+2023-08-16T10:38:32.946+05:30  WARN 7288 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.LoginException: Admin not logged in with this Username.]
+2023-08-16T10:39:53.542+05:30  WARN 7288 --- [http-nio-8088-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.LoginException: Admin not logged in with this Username.]
+2023-08-16T10:44:06.708+05:30  WARN 7288 --- [http-nio-8088-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.UserException: Please provide a valid key to view buses]
+2023-08-16T10:44:06.713+05:30  WARN 7288 --- [http-nio-8088-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.UserException: Please provide a valid key to view all user.]
+2023-08-16T10:44:06.714+05:30  WARN 7288 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.UserException: Please provide a valid key to view Route]
+2023-08-16T10:44:10.481+05:30  WARN 7288 --- [http-nio-8088-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.LoginException: Admin not logged in with this Username.]
+2023-08-16T10:48:51.364+05:30  WARN 7288 --- [http-nio-8088-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.UserException: Please provide a valid key to view buses]
+2023-08-16T10:49:26.072+05:30  WARN 7288 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.UserException: Please Book Some ticket First!!]
+2023-08-16T10:50:31.729+05:30  WARN 7288 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.UserException: Please Book Some ticket First!!]
+2023-08-16T10:53:51.121+05:30  WARN 7288 --- [http-nio-8088-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2023-08-16T10:53:51.121+05:30 ERROR 7288 --- [http-nio-8088-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '1' for key 'feedback.UK_r88sg8b6tlok026lw3mrwt668'
+2023-08-16T10:53:51.132+05:30  WARN 7288 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry '1' for key 'feedback.UK_r88sg8b6tlok026lw3mrwt668'] [insert into feedback (bus_bus_id,comments,driver_rating,feedback_date,overall_rating,service_rating,user_user_login_id,feedback_id) values (?,?,?,?,?,?,?,?)]; SQL [insert into feedback (bus_bus_id,comments,driver_rating,feedback_date,overall_rating,service_rating,user_user_login_id,feedback_id) values (?,?,?,?,?,?,?,?)]; constraint [feedback.UK_r88sg8b6tlok026lw3mrwt668]]
+2023-08-16T10:55:21.969+05:30  INFO 7288 --- [RMI TCP Connection(34)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-08-16T10:55:21.994+05:30  INFO 7288 --- [RMI TCP Connection(34)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-16T10:55:21.995+05:30  INFO 7288 --- [RMI TCP Connection(34)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-16T10:55:22.004+05:30  INFO 7288 --- [RMI TCP Connection(34)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-16T10:55:22.008+05:30  INFO 7288 --- [RMI TCP Connection(34)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-16T10:55:22.017+05:30  INFO 7288 --- [RMI TCP Connection(34)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

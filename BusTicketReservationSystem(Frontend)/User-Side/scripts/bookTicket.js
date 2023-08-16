@@ -61,7 +61,7 @@ function createBusDiv(bus, departureDate){
   const bodyRow2 = document.createElement('tr');
 
   const bodyCell4 = document.createElement('td');
-  bodyCell4.innerText = bus.routeForm;
+  bodyCell4.innerText = bus.routeFrom;
 
   const bodyCell5 = document.createElement('td');
 
@@ -84,7 +84,7 @@ function createBusDiv(bus, departureDate){
   ticketPriceDetails.classList.add('ticket-price-details');
 
   let availableSeatsh2 = document.createElement('h2');
-  availableSeatsh2.innerText = "Available Seats: " + bus.availabeSeats;
+  availableSeatsh2.innerText = "Available Seats: " + bus.availableSeats;
 
   let bookButton = document.createElement('button');
   bookButton.id = "book-ticket";
@@ -96,7 +96,7 @@ function createBusDiv(bus, departureDate){
 
     let bodyToSend = {
       reservationDate: departureDate,
-      source: bus.routeForm,
+      source: bus.routeFrom,
       destination: bus.routeTo
     };
 
@@ -142,7 +142,7 @@ function createBusDetails(busDetails, departureDate){
 function checkBusDetails(data, fromCity, toCity, departureDate){
   console.log(fromCity, toCity);
   data.forEach(element => {
-    if(element.routeFrom == fromCity || element.routeTo == toCity){
+    if(element.routeFrom == fromCity && element.routeTo == toCity){
       busDetails.push(element);
     }
   });
