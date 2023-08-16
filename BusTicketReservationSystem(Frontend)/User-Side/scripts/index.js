@@ -136,7 +136,7 @@ function logoutUser() {
         openCustomAlert("User LogOut SucessFull!!");
         localStorage.setItem("username", JSON.stringify(""));
         localStorage.setItem("uuid", JSON.stringify(""));
-      
+        window.location.reload();
         console.log(data);
       })
       .catch(error => {
