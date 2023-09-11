@@ -92,7 +92,7 @@ function createBusDiv(bus, departureDate){
 
   bookButton.addEventListener('click', () => {
     const currBus = bus.busId;
-    const bookApi = `http://localhost:8088/reservation/add/${currBus}?key=${currUser}`;
+    const bookApi = `https://honest-wing-5796-production.up.railway.app/reservation/add/${currBus}?key=${currUser}`;
 
     let bodyToSend = {
       reservationDate: departureDate,
@@ -158,7 +158,7 @@ function displayBus(fromCity, toCity, departureDate){
     alert("Please Login to Check Available buses...!");
     window.location.href="./login.html";
   }
-  const fetchBusApi = `http://localhost:8088/Bus/viewAllBus?key=${currUser}`;
+  const fetchBusApi = `https://honest-wing-5796-production.up.railway.app/Bus/viewAllBus?key=${currUser}`;
   fetch(fetchBusApi)
   .then(response => response.json())
   .then(data => {
