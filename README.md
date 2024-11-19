@@ -124,6 +124,9 @@ Worked on Login and SignUp page
 > Github: [gzbsingh](https://github.com/gzbsingh)
 Worked on Admin panel
 
+#### Akhil Suryan
+> Github: [akhil368](https://github.com/akhil368)
+Worked on backend
 
 #### N MOHAMMED NAWAZ
 > Github: [nmohammednawaz](https://github.com/nmohammednawaz)
